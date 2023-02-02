@@ -46,14 +46,15 @@ span {
     text-transform: uppercase;
 }
 
-h1 {
+.quoteAdvice {
     margin-top: 1.5rem;
     padding-bottom: 1rem;
     font-size: 1.75rem;
+    color: hsl(193, 38%, 86%);
 }
 
-h1:before { content: open-quote; }
-h1:after  { content: close-quote; }
+.quoteAdvice:before { content: open-quote; }
+.quoteAdvice:after  { content: close-quote; }
 
 .btn {
  background-color: hsl(150, 100%, 66%);
